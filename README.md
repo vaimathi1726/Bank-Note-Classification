@@ -1,2 +1,4 @@
 # Bank-Note-Classification
 Classifies Bank Notes
+
+This project focuses on building and evaluating machine learning models to classify banknotes as either real or counterfeit based on features derived from images of the notes. The dataset used contains features such as variance, skewness, kurtosis, and entropy, which represent statistical properties of the banknote images. I preprocessed the data by scaling the features using StandardScaler to ensure better performance of the models. Two machine learning models were implemented: a neural network using Keras for deep learning and a sci-kit learn Random Forest classifier for ensemble learning. The models were evaluated using accuracy, precision, recall, and F1-score to ensure balanced and accurate classification. The neural network was trained over multiple epochs, and both models achieved high accuracy in predicting whether a banknote is real or counterfeit.
